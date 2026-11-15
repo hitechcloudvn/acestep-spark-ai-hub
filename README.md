@@ -12,7 +12,7 @@ Thin container wrapper for running [ACE-Step 1.5](https://github.com/ACE-Step/AC
 docker run --gpus all -p 7860:7860 \
   -v acestep-checkpoints:/app/checkpoints \
   -v acestep-hf-cache:/root/.cache/huggingface \
-  ghcr.io/waxacabytes/acestep-spark-ai-hub:latest
+  ghcr.io/hitechcloudvn/acestep-spark-ai-hub:latest
 ```
 
 Models are downloaded on first run and cached in the volumes.

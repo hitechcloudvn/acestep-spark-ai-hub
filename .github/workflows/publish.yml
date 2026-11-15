@@ -11,7 +11,7 @@ permissions:
   packages: write
 
 env:
-  IMAGE: ghcr.io/hitechcloud-vietnam/acestep-spark-ai-hub
+  IMAGE: ghcr.io/hitechcloudvn/acestep-spark-ai-hub
 
 jobs:
   build:
